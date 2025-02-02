@@ -1,0 +1,12 @@
+Assignment: Create an image classification model on CIFAR-10 dataset. 
+Apply all the ML tools and techniques you have learned in this course.
+
+Submit a detailed report on the development of the model.
+Dataset link: https://www.cs.toronto.edu/~kriz/cifar.html
+Instructions:
+Perform a exploratory data analysis on the dataset using pandas, seaborn
+Prepare a Custom Data processing pipeline using torch
+Build a model for classification
+Prepare training using Pytorch lightning
+Test the performance
+Deploy the model using gradio
