@@ -25,11 +25,10 @@ This project builds and deploys an image classification model using the **CIFAR-
 📁 image_classifier
 │-- 📂 data
 │-- 📂 models
-│-- 📂 notebooks
-│-- 📂 artifacts
+│-- 📂 lightning_logs
+│-- 📂 mlruns
 │-- app.py   # Gradio Web App
-│-- train.py  # Model Training Script
-│-- mlflow_tracking.py  # MLflow Experiment Logging
+│-- model_build.ipynb  # Model Training Script
 │-- requirements.txt
 │-- README.md
 ```
@@ -42,7 +41,7 @@ python app.py
 The app allows you to upload an image and get predictions from the trained model.
 
 ## 🎥 Project Demo
-[![Project Demo](https://img.youtube.com/vi/YOUR_VIDEO_ID/0.jpg)](https://www.youtube.com/watch?v=YOUR_VIDEO_ID)
+[![Project Demo](https://img.youtube.com/vi/afcKd1glXXg/0.jpg)](https://youtu.be/afcKd1glXXg?si=yhQ0b6ASNy26TZAW)
 
 ## 🔧 Installation
 1. Clone the repository:
