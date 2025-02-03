@@ -1,4 +1,4 @@
-# 🎯 CIFAR-10 Image Classification with PyTorch & MLflow
+# 🎯 CIFAR-10 Image Classification with Gradio, PyTorch & MLflow
 
 ## 📌 Project Overview
 This project builds and deploys an image classification model using the **CIFAR-10 dataset**. The model is trained using **PyTorch Lightning**, tracked with **MLflow**, and deployed as a web app using **Gradio**.
@@ -87,7 +87,8 @@ Run the app script:
 ```bash
 python app.py
 ```
-like Upload an image (PNG, JPG, etc.) to classify it into one of the CIFAR-10 categories. Image will be airplane, automobile, bird, cat, deer, dog, frog, horse, ship, truck.
+Upload an image (PNG, JPG, etc.) to classify it into one of the CIFAR-10 categories. Image will be airplane, automobile, bird, cat, deer, dog, frog, horse, ship, truck.
+
 ---
 Made with ❤️ by Md. Hasibur Rahman
 
