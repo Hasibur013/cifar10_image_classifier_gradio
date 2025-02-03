@@ -41,7 +41,7 @@ python app.py
 The app allows you to upload an image and get predictions from the trained model.
 
 ## 🎥 Project Demo
-[![Project Demo](https://img.youtube.com/vi/afcKd1glXXg/0.jpg)](https://youtu.be/afcKd1glXXg?si=yhQ0b6ASNy26TZAW)
+[![Project Demo](https://img.youtube.com/vi/QcIOw_jK3ag/0.jpg)](https://youtu.be/QcIOw_jK3ag)
 
 ## 🔧 Installation
 1. Clone the repository:
