@@ -46,11 +46,19 @@ The app allows you to upload an image and get predictions from the trained model
 ## 🔧 Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/image-classifier.git
+   git clone https://github.com/Hasibur013/cifar10_image_classifier_gradio.git
    ```
 2. Navigate to the project folder:
    ```bash
    cd image-classifier
+   ```
+3. Create virtual Environment:
+   ```bash
+   Python -m venv venv
+   ```
+4. Active virtual Environment:
+   ```bash
+   venv\Scripts\activate
    ```
 3. Install dependencies:
    ```bash
@@ -60,7 +68,7 @@ The app allows you to upload an image and get predictions from the trained model
 ## 🚀 Train the Model
 Run the training script:
 ```bash
-python train.py
+notebook model_build.ipynb
 ```
 
 ## 📌 Run MLflow Tracking UI
@@ -74,6 +82,12 @@ Then open `http://localhost:5000` in your browser to visualize training metrics.
 - [ ] Improve model accuracy with hyperparameter tuning
 - [ ] Deploy as a cloud-based service
 
+## 🚀 Run Web App
+Run the app script:
+```bash
+python app.py
+```
+like Upload an image (PNG, JPG, etc.) to classify it into one of the CIFAR-10 categories. Image will be airplane, automobile, bird, cat, deer, dog, frog, horse, ship, truck.
 ---
-Made with ❤️ by Your Name
+Made with ❤️ by Md. Hasibur Rahman
 
